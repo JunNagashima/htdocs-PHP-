@@ -1,0 +1,175 @@
+#title {
+  width: 80%;
+  margin: 20px 0 30px;
+  padding: 5px 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #000;
+  background-color: rgba(255, 169, 255, .2);
+}
+
+#cari_name {
+  width: 30%;
+  margin: 20px 0 30px;
+  padding: 5px 10px;
+  font-size: 20px;
+  outline: none;
+  border: 1px solid #000;
+  background-color: rgba(169, 255, 255, .2);
+}
+
+#content {
+  height: 220px;
+  width: 95%;
+  margin: 20px 0 30px;
+  padding: 10px;
+  font-size: 15px;
+  resize: none;
+  outline: none;
+  border: 1px solid #000;
+  background-color: rgba(255, 255, 169, .2);
+}
+
+#add_btn {
+  margin: 0 auto;
+}
+
+#add_btn input {
+  border: none;
+  background-color: #00ff99;
+}
+
+.chat {
+  border: solid 1px #000;
+  border-radius: 5px;
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.chat_in {
+  width: 80%;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+.chat_text {
+  height: 20px;
+  padding: 5px;
+  width: 80%;
+  resize: none;
+}
+
+.chat_btn {
+  width: 70px;
+  padding: 5px 0;
+}
+
+.coment_name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.coment_right .coment_name {
+  text-align: right;
+  margin-right: 3%;
+}
+
+.coment_right .coment_inner {
+  position: relative;
+  display: block;
+  margin: 0 15px 1.5em 45%;
+  padding: 7px 10px;
+  min-width: 50%;
+  max-width: 65%;
+  color: #111;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  box-sizing: border-box;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+
+.coment_right .coment_inner:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-left: 12px solid #FFF;
+  z-index: 2;
+}
+
+.coment_right .coment_inner:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-left: 14px solid #555;
+  z-index: 1;
+}
+
+.coment_left .coment_inner {
+  position: relative;
+  display: block;
+  margin: 0 0 1.5em 15px;
+  padding: 7px 10px;
+  min-width: 50%;
+  max-width: 65%;
+  color: #555;
+  font-size: 16px;
+  background: #FFF;
+  border: solid 3px #555;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+.coment_left .coment_inner:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -24px;
+  margin-top: -12px;
+  border: 12px solid transparent;
+  border-right: 12px solid #FFF;
+  z-index: 2;
+}
+
+.coment_left .coment_inner:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: -14px;
+  border: 14px solid transparent;
+  border-right: 14px solid #555;
+  z-index: 1;
+}
+
+.coment_time {
+  font-size: 10px;
+  text-align: right;
+}
+
+.act_btn {
+  display: flex;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.act_btn a {
+  display: block;
+  height: 60px;
+  width: 200px;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 auto;
+  border: solid 1px #000;
+  border-radius: 10px;
+  color: #000;
+  background-color: #00ff99;
+}

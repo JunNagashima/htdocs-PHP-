@@ -1,0 +1,59 @@
+/* .top {
+  width: 90%;
+  margin: 0 auto ;
+  padding-top: 50px;
+} */
+
+input {
+  display: block;
+}
+
+#add_form {
+  padding: 13px 7px;
+}
+
+#add_form table {
+  margin-bottom: 50px;
+}
+
+.add_td_left {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.add_td_right {
+  font-size: 25px;
+  padding-left: 40px;
+}
+
+.top_text,.top_pass {
+  height: 20px;
+  width: 220px;
+  padding: 5px;
+}
+
+.plan {
+  padding-top: 13px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.plan_box {
+  width: 46%;
+  padding: 5px 15px;
+  display: flex;
+}
+
+.cari_name {
+  width: 40%;
+  margin-right: 10px;
+}
+
+.cari_name p {
+  font-size: 20px;
+}
+
+#add_btn {
+  margin: 30px auto 0;
+}

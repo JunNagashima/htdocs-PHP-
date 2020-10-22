@@ -1,0 +1,179 @@
+.meter {
+  height: 154px;
+  border: solid 1px #000;
+  margin: 10px 0 80px 0;
+  padding: 30px;
+}
+
+.meter_line {
+  height: 50px;
+  border: solid 1px #000;
+  display: flex;
+}
+
+.meter_box {
+  height: 50px;
+  width: 9%;
+  border: solid 1px #000;
+}
+
+.meter_box:hover {
+  height: 55px;
+  width: 13%;
+  background-color: #fff;
+  transform: translateY(-2.5px);
+}
+
+.meter_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.curri_desc_top,.curri_desc_bottom {
+  display: flex;
+}
+
+.curri_desc p {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.que_log {
+  border: solid 1px #000;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.ques {
+  width: 80%;
+  margin: 15px auto 0;
+}
+
+.que_title {
+  height: 40px;
+  width: 98%;
+  padding: 10px;
+  border: solid 1px #000;
+  display: flex;
+  justify-content: space-between;
+}
+
+.que_title p {
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.que_content {
+  width: 98%;
+  padding: 10px;
+  border: solid 1px #000;
+  border-top: none;
+  display: none;
+  max-height: 100px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.que_content p {
+  overflow: hidden;
+}
+
+.que_anser {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.que_anser_inner {
+  height: 35px;
+  width: 60px;
+  border: solid 1px #000;
+  margin-top: 10px;
+}
+
+.que_anser input {
+  display: block;
+  height: 35px;
+  width: 60px;
+  text-align: center;
+  line-height: 35px;
+}
+
+#que_anserd_inner, #que_anserd_inner input {
+  height: 35px;
+  width: 120px;
+  color: #000;
+}
+
+.curri_desc1 {
+  display: none;
+}
+
+.curri_desc2 {
+  display: none;
+}
+
+.curri_desc3 {
+  display: none;
+}
+
+.curri_desc4 {
+  display: none;
+}
+
+.curri_desc5 {
+  display: none;
+}
+
+.curri_desc6 {
+  display: none;
+}
+
+.curri_desc7 {
+  display: none;
+}
+
+.curri_desc8 {
+  display: none;
+}
+
+.curri_desc9 {
+  display: none;
+}
+
+.curri_desc10 {
+  display: none;
+}
+
+.curri_desc11 {
+  display: none;
+}
+
+.hoverFind {
+  display:block;
+}
+
+.stateColor {
+  background-color: #00ff9959;
+}
+
+.stateColor:hover {
+  background-color: #00ff99;
+}
+
+.stateNotColor {
+  background-color: #ff000059;
+}
+
+.stateNotColor:hover {
+  background-color: #ff0000;
+}
+
+.messageCnt {
+  background-color: red;
+  color: #fff;
+  border: solid #000 1px;
+  border-radius: 5px;
+  width: 300px;
+  text-align: center;
+}

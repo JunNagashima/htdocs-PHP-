@@ -1,0 +1,250 @@
+@charset "UTF-8";
+
+/*---Reset---*/
+body, h1, h2, h3, h4, h5, h6, p, address,
+ul, ol, li, dl, dt, dd, img, form, table, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	text-align: left;
+	list-style-type: none;
+	border-collapse: collapse;
+}
+
+textarea { font-size: 100%; vertical-align:middle;}
+img { border-style: none; display: block; }
+hr { display: none; }
+em{font-style: normal}
+input{line-height:auto;vertical-align:middle;}
+strong.more{color:#c30}
+a{text-decoration: none;}
+
+html {
+}
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	background-image: url(../image/koruku.jpg);
+  background-size: 100%;
+}
+
+header {
+  height: 40px;
+  padding: 10px;
+	background-color: rgba(0, 0, 0, .8);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_btn {
+  border: solid 1px #000;
+  background-color: #fff;
+  height: 40px;
+  width: 90px;
+  margin-right: 30px;
+}
+
+.header_btn a {
+  display: block;
+  height: 40px;
+  width: 90px;
+  font-size: 15px;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+}
+
+#header_red {
+	background-color: #ffccff;
+	transform: rotate(8deg);
+}
+
+#header_blue {
+	background-color: #ccffff;
+	transform: rotate(-8deg);
+}
+
+#header_yellow {
+	background-color: #ffffcc;
+	transform: rotate(8deg);
+}
+
+.header_btn:hover {
+	border: solid 1px #fff;
+}
+
+.main {
+  width: 90%;
+  margin: 50px auto 30px;
+  padding: 20px;
+  background-color: #eee;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.wrapper {
+	min-height: calc(100vh - 150px);
+}
+
+.text {
+  width: 90%;
+  margin: 20px auto;
+}
+
+.text p {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.text_sub p {
+  font-size: 18px;
+  border-bottom: solid 1px #ffccff;
+}
+
+.done_btn {
+  height: 70px;
+  width: 100px;
+  border: solid 1px #000;
+  border-radius: 35px;
+  margin-right: 30px;
+  box-shadow: 0 5px;
+	background-color: #00ff9959;
+}
+
+.done_btn input:hover {
+	background-color: #00ff99;
+}
+
+.done_btn input {
+	border: none;
+	display: block;
+  height: 70px;
+  width: 100px;
+  border-radius: 35px;
+  outline: none;
+	background-color: #00ff9959;
+}
+
+.done_btn a {
+	color: #000;
+}
+
+.done_btn:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 0;
+}
+
+#que_anser_inner {
+  height: 50px;
+  width: 70px;
+  border-radius: 25px;
+  margin-top: 10px;
+}
+
+#que_anser_inner input {
+	color: #000;
+  display: block;
+  height: 50px;
+  width: 70px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.done_btn:hover {
+	background-color: #00ff99;
+}
+
+
+#top_red {
+  border: solid 1px #000;
+  background-color: rgba(255, 169, 255, .2);
+}
+
+#top_blue {
+	border: solid 1px #000;
+  background-color: rgba(169, 255, 255, .2);
+}
+
+#top_yellow {
+	border: solid 1px #000;
+  background-color: rgba(255, 255, 169, .2);
+}
+
+.selecter {
+	position: relative;
+	margin: 20px 0;
+	display: flex;
+}
+
+select {
+	width: 193px;
+  padding: 11px 50px 11px 15px;
+	margin-right: 40px;
+  border: solid 1px #000;
+  font-weight: 400;
+  color: #000;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  z-index: 50;
+}
+
+#select_blue:hover {
+  background-color: rgba(169, 255, 255, .2);
+}
+
+#select_yellow:hover {
+  background-color: rgba(255, 255, 169, .2);
+}
+
+.selecter::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 10px solid #000;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  pointer-events: none;
+  top: 16px;
+  left: 160px;
+  z-index: 100;
+}
+
+.selecter::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 10px solid #000;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  pointer-events: none;
+  top: 16px;
+  left: 395px;
+  z-index: 100;
+}
+
+footer {
+  height: 20px;
+	width: 100%;
+  padding: 10px 0;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+footer p {
+	font-size: 13px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+}
+
+.error {
+	text-align: center;
+	color: red;
+}

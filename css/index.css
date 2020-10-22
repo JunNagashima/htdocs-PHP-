@@ -1,0 +1,75 @@
+
+body {
+  background-image: url(../image/koruku2.jpg);
+}
+
+.top {
+  width: 50%;
+  margin: 17% 0 0 28%;
+  background-color: #eee;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+}
+
+input {
+  display: block;
+  outline: none;
+}
+
+#login_form {
+  padding: 20px 7px;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.login_td_left {
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 10px;
+}
+
+.login_td_right {
+  padding-left: 40px;
+  font-size: 20px;
+}
+
+.top_text,.top_pass {
+  padding: 5px;
+  width: 220px;
+}
+
+#top_red {
+  border: solid 1px #000;
+  background-color: rgba(255, 169, 255, .2);
+}
+
+#top_blue {
+	border: solid 1px #000;
+  background-color: rgba(169, 255, 255, .2);
+}
+
+#top_yellow {
+	border: solid 1px #000;
+  background-color: rgba(255, 255, 169, .2);
+}
+
+.top_btn {
+  height: 70px;
+  width: 130px;
+  border: solid 1px #000;
+  border-radius: 35px;
+  margin: 30px auto 10px;
+  outline:  none;
+  box-shadow: 0 5px;
+  background-color: #00ff9959;
+}
+
+.top_btn:hover {
+  background-color:  #00ff99;
+}
+
+.top_btn:active {
+  transform: translateY(5px);
+  box-shadow: 0 0 0;
+}
